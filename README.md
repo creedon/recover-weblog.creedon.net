@@ -17,3 +17,6 @@ In Chrome console run the following code to load recovery code...
     
     ( document.getElementsByTagName ( 'head' ) [ 0 ] || document.getElementsByTagName ( 'body' ) [ 0 ] ).appendChild ( script );
 
+Now just run a command like...
+
+    scrape ( { days : 1, uuid : 123, getBlogEntries : getBlogEntriesA } )
